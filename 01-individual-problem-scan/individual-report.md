@@ -141,6 +141,7 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 │ Quick gut:                                         │
 │ □ No AI    ☑ Rule    ☑ Workflow    □ Agent        │
 └────────────────────────────────────────────────────┘
+
 ---
 
 #### Problem Card #1 — Viết meeting minutes sau mỗi buổi họp
