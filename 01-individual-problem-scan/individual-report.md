@@ -18,7 +18,7 @@
 |---|---|---|---|---|
 | **1** | **Tốn thời gian + Lặp lại + AI có thể tốt hơn** | Tìm và hiểu definition của các chỉ tiêu dữ liệu khi làm báo cáo vì tên field/code khác nhau giữa các nguồn | Data Analyst, Intern | Phải tìm nhiều file hoặc hỏi người cũ; một chỉ tiêu có thể có nhiều cách hiểu; mất khoảng **20–30 phút/chỉ tiêu** khi chưa quen |
 | **2** | **Pain từ người khác + Tốn thời gian** | Người yêu cầu phân tích mô tả nhu cầu bằng ngôn ngữ nghiệp vụ nhưng Data team phải hỏi lại để xác định chính xác metric, filter và time period | Business User + Data Analyst | Phải trao đổi qua lại nhiều lần trước khi xác định được yêu cầu phân tích cụ thể |
-| **4** | **Pain từ người khác + Tốn thời gian** | Người mới vào team phải tự học và tổng hợp kiến thức về hệ thống dữ liệu từ nhiều tài liệu rời rạc | Intern / Nhân viên mới | Cấp trên thường đưa yêu cầu tổng quát và yêu cầu tự tìm hiểu; phải đọc nhiều tài liệu trước khi hiểu được database và workflow |
+| **3** | **Pain từ người khác + Tốn thời gian** | Người mới vào team phải tự học và tổng hợp kiến thức về hệ thống dữ liệu từ nhiều tài liệu rời rạc | Intern / Nhân viên mới | Cấp trên thường đưa yêu cầu tổng quát và yêu cầu tự tìm hiểu; phải đọc nhiều tài liệu trước khi hiểu được database và workflow |
 | **4** | **Tốn thời gian + Lặp lại + AI có thể tốt hơn** | Viết meeting notes sau các buổi cross-team meeting | Member / Người được phân công ghi biên bản | Khoảng **30 phút/buổi** để tổng hợp nội dung, quyết định và action items; phải hỏi lại khi có nội dung chưa rõ |
 | **5** | **Tốn thời gian + AI có thể tốt hơn** | Hiểu và xác định các thông tin cần thiết trong một bộ dữ liệu lớn | Member / Data Analyst / Intern | Database có nhiều bảng, field và code; người chưa có kinh nghiệm mất nhiều thời gian để tìm hiểu cấu trúc và ý nghĩa dữ liệu |
 
@@ -393,22 +393,22 @@ Quick gut:
 
 **Card tôi muốn pitch nhất:**
 
-```Problem #2 – Tìm và hiểu definition của các chỉ tiêu dữ liệu
-
+```text
+Problem #2 – Tìm và hiểu definition của các chỉ tiêu dữ liệu
 ```
 
 **Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
 
-```Khi nhận một yêu cầu phân tích, Data Analyst thường phải tìm definition, công thức và source field của các chỉ tiêu từ nhiều tài liệu hoặc hỏi người có kinh nghiệm. Workflow này mất khoảng 20–30 phút cho mỗi chỉ tiêu chưa quen thuộc và có thể dẫn đến việc hiểu sai hoặc chọn sai field. Tôi muốn thử nghiệm AI/RAG để rút ngắn thời gian tìm hiểu xuống khoảng ≤5 phút, đồng thời cung cấp definition và nguồn tham chiếu để analyst kiểm tra.
-
+```text
+Khi nhận một yêu cầu phân tích, Data Analyst thường phải tìm definition, công thức và source field của các chỉ tiêu từ nhiều tài liệu hoặc hỏi người có kinh nghiệm. Workflow này mất khoảng 20–30 phút cho mỗi chỉ tiêu chưa quen thuộc và có thể dẫn đến việc hiểu sai hoặc chọn sai field. Tôi muốn thử nghiệm AI/RAG để rút ngắn thời gian tìm hiểu xuống khoảng ≤5 phút, đồng thời cung cấp definition và nguồn tham chiếu để analyst kiểm tra.
 ```
 
 **Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
 
-```Problem này có thực sự cần AI/RAG không, hay chỉ cần xây dựng một Data Dictionary/Metadata Catalog tốt hơn?
-
-
-```Làm thế nào để đảm bảo AI trả lời đúng definition và không tạo ra thông tin sai về chỉ tiêu?
+```text
+Problem này có thực sự cần AI/RAG không, hay chỉ cần xây dựng một Data Dictionary/Metadata Catalog tốt hơn?
+Làm thế nào để đảm bảo AI trả lời đúng definition và không tạo ra thông tin sai về chỉ tiêu?
+```
 
 **AI phản biện Card (nếu có):**
 - Điểm yếu AI chỉ ra: AI có thể không cần thiết nếu vấn đề chủ yếu nằm ở việc tài liệu và Data Dictionary đang được tổ chức kém. Ngoài ra, nếu AI trả lời sai definition hoặc công thức KPI thì có thể dẫn đến quyết định phân tích sai.
